@@ -7,5 +7,5 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
-    console.log(`Hello Server started on port ${port}`)
+    console.log(`Hello Server started on port ${port}!`)
 });
